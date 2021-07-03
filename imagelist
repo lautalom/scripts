@@ -1,0 +1,5 @@
+find . -type f -print0 |  
+  xargs -0 file --mime-type |
+  grep -F 'image/' |
+  cut -d ':' -f 1
+
