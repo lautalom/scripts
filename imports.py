@@ -20,9 +20,9 @@ def get_imports(path):
 
 def sep(a):
     if a == 1:
-        print(end='----------------------------------------------------------------\n')
+        print('-'*80)
     else:
-        print(end='================================================================\n')
+        print('='*80)
 
 def list_methods(imp, path):
     text = open(path, 'r')
