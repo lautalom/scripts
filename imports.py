@@ -57,7 +57,7 @@ if __name__ == '__main__':
         if not os.path.exists(path):
             print("Path does not exist or is not a directory, Try again")
             user = input(f"{path} is correct? \tDefault: [N]/Y\n")
-            if not user or user.lower()[0] == 'y' or not user:
+            if not user or user.lower()[0] == 'y':
                 print("Path not found. Terminating.")
                 exit(0)
         else:               
